@@ -8,6 +8,10 @@ public class QueueDemo {
 		list.addFirstNode(data);
 	}
 
+	public void deQueue() {
+		list.deleteFirstNode();
+	}
+
 	public void display() {
 		list.display();
 	}
@@ -19,5 +23,12 @@ public class QueueDemo {
 		queue.enQueue(30);
 		queue.enQueue(56);
 		queue.display();
+		queue.deQueue();
+		queue.display();
+		queue.deQueue();
+		queue.display();
+		queue.deQueue();
+		queue.display();
+
 	}
 }

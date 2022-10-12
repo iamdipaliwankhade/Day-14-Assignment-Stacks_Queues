@@ -31,6 +31,10 @@ public class LinkedList {
 		}
 	}
 
+	public void deleteFirst() {
+		head = head.ref;
+	}
+
 	public void display() {
 		Node temp = head;
 		if (head == null)

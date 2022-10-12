@@ -8,6 +8,10 @@ public class StackDemo {
 		list.addLast(data);
 	}
 
+	public void pop() {
+		list.deleteFirst();
+	}
+
 	public void display() {
 		list.display();
 	}
@@ -18,6 +22,12 @@ public class StackDemo {
 		stack.push(56);
 		stack.push(30);
 		stack.push(70);
+		stack.display();
+		stack.pop();
+		stack.display();
+		stack.pop();
+		stack.display();
+		stack.pop();
 		stack.display();
 	}
 }
